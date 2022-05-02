@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://pokeduelbackend.up.railway.app/users",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}
