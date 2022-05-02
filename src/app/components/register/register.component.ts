@@ -9,8 +9,10 @@ import { AuthService } from 'src/app/services/auth.service';
 export class RegisterComponent implements OnInit {
 
   user = {
+    username: '',
+    password: '',
     email: '',
-    password: ''
+    avatar: '',
   };
   constructor(private _authService: AuthService) { }
 
